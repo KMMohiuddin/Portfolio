@@ -35,7 +35,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.flaticon-BI:before { content: "\f110"; }
 .flaticon-3d-design:before { content: "\f100"; }
 .flaticon-web-programming:before { content: "\f101"; }
 .flaticon-app-development:before { content: "\f102"; }
