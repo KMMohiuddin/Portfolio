@@ -9183,6 +9183,36 @@ textarea.form-control {
 .bg-primary {
   background: linear-gradient(to right, #9933ff,  #66ccff) !important; }
 
+  .navbar-nav {
+    flex-direction: row;
+    white-space: nowrap;
+}
+
+.nav-item {
+    padding: 0 10px; /* Adjust padding as needed to ensure enough space */
+}
+
+.nav-link {
+    white-space: nowrap; /* Prevent wrapping for long link names */
+}
+
+.navbar-brand img {
+    max-width: 100%; /* Adjust size as needed */
+}
+
+/* Handle small screens */
+@media (max-width: 992px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        padding: 10px 0;
+    }
+}
+
+
+
   .education-section .content {
     padding: 30px;
     background: linear-gradient(to right, #9933ff,  #66ccff);
@@ -9238,6 +9268,106 @@ textarea.form-control {
   .education-section .icon-boxes .icon-box:hover {
     box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.15);
   }
+  .experience-section .content {
+    padding: 30px;
+    background: linear-gradient(to right, #9933ff,  #66ccff);
+    border-radius: 4px;
+    color: #fff;
+  }
+  .experience-section {
+    padding: 30px 0 60px 0; /* Added bottom padding */
+    background: #fce5cd; /* Warm background color */
+}
+  .experience-section .content h3 {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+  .experience-section .content p {
+    margin-bottom: 30px;
+  }
+  .experience-section .content .more-btn {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 6px 30px 8px 30px;
+    color: #fff;
+    border-radius: 50px;
+    transition: all ease-in-out 0.4s;
+  }
+  .experience-section .content .more-btn i {
+    font-size: 14px;
+  }
+  .experience-section .content .more-btn:hover {
+    color: #009970;
+    background: #fff;
+  }
+  .experience-section .icon-boxes .icon-box {
+    text-align: left;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
+    width: 100%;
+    transition: 0.3s;
+  }
+  .experience-section .icon-boxes .icon-box i {
+    font-size: 40px;
+    color: #009970;
+    margin-bottom: 30px;
+  }
+  .experience-section .icon-boxes .icon-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+  }
+  .experience-section .icon-boxes .icon-box p {
+    font-size: 15px;
+    color: #848484;
+  }
+  .experience-section .icon-boxes .icon-box:hover {
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.15);
+  }
+
+
+.icon-boxes .icon-box {
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0px 0 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: left; /* Align text to the left */
+}
+
+.icon-boxes .icon-box i {
+    font-size: 36px;
+    color: #ff689b;
+    margin-bottom: 20px;
+}
+
+.icon-boxes .icon-box h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.icon-boxes .icon-box p {
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.icon-boxes .icon-box ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.icon-boxes .icon-box ul li {
+    margin-bottom: 10px;
+    color: #6c757d;
+}
+
+
 .ftco-section {
   padding: 7em 0;
   position: relative; }
