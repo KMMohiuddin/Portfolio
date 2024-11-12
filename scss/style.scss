@@ -28,9 +28,7 @@ $secondary: #a0f669;
 }
 
 
-html {
-	// overflow-x: hidden;
-}
+/* Removed empty ruleset for html */
 body {
 	font-family: $font-primary;
 	background: $white;
@@ -45,6 +43,7 @@ body {
 		width: 100%;
 	}
 }
+
 a {
 	transition: .3s all ease;
 	color: $primary;
@@ -1469,6 +1468,7 @@ textarea.form-control {
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   -webkit-transition: all 0.3s ease-out; 
   -moz-transition: all 0.3s ease-out; 
   -o-transition: all 0.3s ease-out; 
@@ -1641,7 +1641,6 @@ textarea.form-control {
 			a{
 				color: $white;
 			}
-			span{}
 		}
 	}
 	.contact-form{
@@ -1744,8 +1743,6 @@ textarea.form-control {
 		outline: none!important;
 		box-shadow: none!important;
 		font-size: 15px;
-	}
-	#map {
 	}
 }
 
