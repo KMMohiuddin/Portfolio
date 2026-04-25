@@ -96,7 +96,7 @@ const AboutSection = () => {
                 variants={itemVariants}
               >
                 <p className="text-sm text-primary-600">Experience</p>
-                <p className="font-semibold text-primary-900">5+ Years</p>
+                <p className="font-semibold text-primary-900">3+ Years</p>
               </motion.div>
               <motion.div
                 className="bg-primary-50 p-4 rounded-lg"
@@ -156,16 +156,12 @@ const AboutSection = () => {
 
             {/* Highlight Stats */}
             <div className="grid grid-cols-3 gap-4 pt-6">
-              <div className="bg-gradient-to-br from-primary-500 to-primary-600 text-white p-4 rounded-lg text-center">
-                <p className="text-3xl font-bold">50+</p>
-                <p className="text-sm">Projects Analyzed</p>
-              </div>
               <div className="bg-gradient-to-br from-accent-500 to-accent-600 text-white p-4 rounded-lg text-center">
                 <p className="text-3xl font-bold">100%</p>
                 <p className="text-sm">Dedication</p>
               </div>
               <div className="bg-gradient-to-br from-primary-400 to-accent-400 text-white p-4 rounded-lg text-center">
-                <p className="text-3xl font-bold">15+</p>
+                <p className="text-3xl font-bold">10+</p>
                 <p className="text-sm">Certifications</p>
               </div>
             </div>

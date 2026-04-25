@@ -19,7 +19,7 @@ export const portfolioData = {
   hero: {
     mainHeading: "Data Analyst & Business Intelligence Expert",
     subheading: "Transforming data into actionable intelligence to drive business success",
-    description: "Leveraging Python, SQL, and QlikView to unlock valuable insights from complex datasets",
+    description: "Leveraging Python, SQL, and BI tools to unlock valuable insights from complex datasets",
     ctaText: "Get in Touch",
     heroImages: [
       "/new_img/showcase.jpg",
@@ -29,23 +29,44 @@ export const portfolioData = {
 
   about: {
     heading: "About Me",
-    intro: "Data analyst at Grameenphone Ltd. (via MIAKI)",
-    bio: `I am a dedicated learner and passionate data science enthusiast with comprehensive academic training and hands-on business data analysis experience. With a solid foundation in Software Engineering and Data Science, I excel at translating complex data into actionable intelligence.
-
-My expertise spans data analysis, visualization, and predictive modeling. I've successfully managed financial transactions, detected revenue leakage, identified fraudulent activities, and led cross-functional initiatives at NAGAD. I'm committed to continuous professional development and staying at the forefront of industry trends.`,
+    intro: "Data Analyst - Miaki Media Ltd",
+    bio: `I can design and optimize data systems that transform complex datasets into actionable intelligence. With hands-on experience in enterprise analytics and a background in Software Engineering and Data Science, I deliver high-performance data pipelines, and insightful visualizations that support business-critical decisions. 
+    My expertise spans data analysis, machine learning, revenue assurance, and BI reporting, with a focus on financial analytics and fraud detection. I am passionate about continuous learning and building efficient, reliable data solutions that create measurable business value.`,
     
-    longBio: `I am a dedicated learner, always eager to embrace new challenges and broaden my knowledge. Punctuality is a core value of mine, and I strive to complete all my tasks ahead of deadlines. My passion for programming and my enthusiasm for data have driven me to excel in the field of data science and analytics.
+    longBio: `I am a results-oriented data and analytics professional with a strong commitment to continuous learning and operational excellence. I consistently demonstrate discipline in meeting deadlines and delivering high-quality outcomes, while actively seeking opportunities to expand my technical and domain expertise.
 
-With a solid academic foundation in Software Engineering and Data Science, I have gained extensive knowledge in areas such as Software Engineering, Data Structures, Algorithms, Database Systems, Operating Systems, and Artificial Intelligence. My undergraduate coursework also included specialized training in Data Science, where I delved into Statistical Data Analysis, Machine Learning, and Data Management.
+I hold a solid academic background in Software Engineering and Data Science, with comprehensive training in core areas including data structures, algorithms, database systems, operating systems, and artificial intelligence. My academic focus extended into data science disciplines such as statistical analysis, machine learning, and data management, equipping me with both theoretical depth and practical capability.
 
-During my tenure as an intern and later as an Executive in Revenue Assurance at NAGAD, I developed strong skills in data analysis and validation, managing financial transactions, and ensuring the accuracy and efficiency of client and product management. I have a proven track record of detecting revenue leakage, identifying fraudulent activities, and analyzing transaction trends through real-time data analysis.
+Professionally, I have developed significant experience in data analytics and revenue assurance through my roles at Nagad, where I progressed from intern to executive. In this capacity, I was responsible for validating and analyzing financial transactions, ensuring data integrity, and supporting client and product management processes. I played a key role in detecting revenue leakage, identifying fraudulent activities, and conducting real-time transaction analysis to uncover actionable insights.
 
-My technical proficiency includes working with MS SQL Server, Oracle Database, and using predictive analytics tools like LSTM, ARIMA, and XGBoost for time series forecasting. I am adept at employing data visualization tools such as QlikView, Power BI, Apache Airflow, and Adobe Spark to enhance efficiency and streamline processes.`,
+Currently, I serve as an Enterprise Data Warehouse & Analytics Developer (EDWAD) at Grameenphone. My responsibilities include developing and maintaining BI reports, integrating data sources, designing and optimizing ETL pipelines, and enhancing SQL query performance to support enterprise analytics initiatives.
+
+My technical expertise includes working with relational database systems such as MS SQL Server and Oracle. I also have experience applying advanced predictive modeling techniques—including LSTM, ARIMA, and XGBoost—for time series forecasting. Additionally, I am proficient in data visualization and workflow orchestration tools such as QlikView, Power BI, and Apache Airflow, enabling efficient data pipeline management and insightful reporting.
+
+I bring a balanced combination of technical proficiency, analytical thinking, and business awareness, allowing me to contribute effectively to data-driven decision-making in complex organizational environments.`,
 
     hobbies: ["Music", "Travel", "Movies", "Sports"],
   },
 
   experience: [
+        {
+      company: "Miaki Media Ltd",
+      companyLogo: "/new_img/Miaki_logo.png",
+      companyUrl: "https://miaki.co",
+      role: "Data Analyst ",
+      period: "October 2024 - Running",
+      duration: "Current",
+      description: "Augmented Resource: Grameenphone Ltd. Enterprise Data Warehouse & Analytics Developer (EDWAD), Data Analytics & IT Team",
+      responsibilities: [
+        "Design, develop, and optimize end-to-end ETL pipelines integrating data from multiple enterprise sources into a centralized data warehouse, ensuring seamless data flow, enhanced data quality, and scalable reporting capabilities.",
+        "Develop and maintain performance-optimized stored procedures, views, and complex SQL queries, significantly reducing data processing times for large-scale datasets",
+        "Develop and deliver analytics solutions and BI reports in Qlikview, translating evolving business requirements into robust analytical dashboards for cross-departmental stakeholders.",
+        "Translate technical specifications into data warehouse and BI solutions, independently owning projects from inception through testing and delivery with minimal supervision.",
+        "Implement data modeling and architecture standards to support scalable and maintainable data structures aligned with business reporting needs.",
+        "Utilize Confluent Kafka for real-time data integration, contributing to high-volume streaming data pipelines across organizational systems.",
+        "Conduct code reviews, maintain documentation, and track issues throughout development and UAT phases, ensuring quality assurance and stakeholder alignment."
+      ],
+    },
     {
       company: "NAGAD",
       companyLogo: "/new_img/nagad_logo.jpg",
@@ -53,7 +74,7 @@ My technical proficiency includes working with MS SQL Server, Oracle Database, a
       role: "Executive - Revenue Assurance & Business Assurance",
       period: "September 2023 - October 2024",
       duration: "1 year 1 month",
-      description: "Led financial transaction analysis and validation processes for a fintech platform",
+      description: "Worked on data analysis, revenue assurance, and Data Model Development",
       responsibilities: [
         "Conducting thorough data analysis and validation processes for various financial transactions such as BI reports, merchant settlement, product commission, reconciliation and reimbursement procedures.",
         "Overseeing the execution of automated campaigns and settlement processes, ensuring accuracy and efficiency.",
@@ -190,12 +211,21 @@ My technical proficiency includes working with MS SQL Server, Oracle Database, a
 
   education: [
     {
+      degree: "Masters of Science in Computer Science & Engineering",
+      major: "",
+      institution: "North South University",
+      institutionUrl: "https://ece.northsouth.edu/graduate/graduate-admission/mscse/",
+      location: "Dhaka, Bangladesh",
+      cgpa: "",
+      year: "2026 - Running",
+    },
+    {
       degree: "Bachelor of Science in Software Engineering",
       major: "Major in Data Science",
       institution: "Daffodil International University",
       institutionUrl: "https://daffodilvarsity.edu.bd",
       location: "Dhaka, Bangladesh",
-      cgpa: "3.92 / 4.00",
+      cgpa: "3.91 / 4.00",
       year: "2019 - 2023",
     },
     {

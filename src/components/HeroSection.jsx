@@ -95,15 +95,11 @@ const HeroSection = () => {
               className="grid grid-cols-3 gap-6 pt-8 border-t border-primary-200"
             >
               <div>
-                <p className="text-3xl font-bold text-primary-900">5+</p>
+                <p className="text-3xl font-bold text-primary-900">3+</p>
                 <p className="text-sm text-primary-600">Years Experience</p>
               </div>
               <div>
-                <p className="text-3xl font-bold text-primary-900">20+</p>
-                <p className="text-sm text-primary-600">Projects Completed</p>
-              </div>
-              <div>
-                <p className="text-3xl font-bold text-primary-900">15+</p>
+                <p className="text-3xl font-bold text-primary-900">10+</p>
                 <p className="text-sm text-primary-600">Certifications</p>
               </div>
             </motion.div>
@@ -130,8 +126,8 @@ const HeroSection = () => {
                 animate={{ y: [0, 10, 0] }}
                 transition={{ duration: 3, repeat: Infinity }}
               >
-                <p className="text-sm font-semibold text-primary-900">Data Analyst</p>
-                <p className="text-xs text-accent-500">NAGAD</p>
+                <p className="text-sm font-semibold text-primary-900">Augmented Resource</p>
+                <p className="text-xs text-accent-500">Grameenphone</p>
               </motion.div>
             </div>
           </motion.div>
