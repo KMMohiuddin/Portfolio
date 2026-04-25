@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import clsx from 'clsx';
-import { Link as ScrollLink, scroller } from 'react-scroll';
-import { FaMenu, FaTimes, FaLinkedin, FaGithub, FaFacebook } from 'react-icons/fa';
+import { Link as ScrollLink } from 'react-scroll';
+import { FaBars, FaTimes, FaLinkedin, FaGithub, FaFacebook } from 'react-icons/fa';
 import { portfolioData } from '../data/content';
 
 const Navbar = () => {
@@ -93,7 +93,7 @@ const Navbar = () => {
               onClick={() => setIsOpen(!isOpen)}
               className="md:hidden text-primary-600"
             >
-              {isOpen ? <FaTimes size={24} /> : <FaMenu size={24} />}
+              {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
             </button>
           </div>
         </div>

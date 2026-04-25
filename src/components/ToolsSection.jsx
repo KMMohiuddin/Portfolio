@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import {
   FaPython,
   FaDatabase,
-  FaChart,
+  FaChartLine,
   FaBrain,
   FaCloud,
   FaCode,
@@ -16,7 +16,7 @@ const ToolsSection = () => {
   const categoryIcons = {
     'Programming & Data Analysis': FaPython,
     'Databases': FaDatabase,
-    'Data Visualization & BI': FaChart,
+    'Data Visualization & BI': FaChartLine,
     'Machine Learning': FaBrain,
     'Platforms & Cloud': FaCloud,
     'Development Tools': FaCode,
