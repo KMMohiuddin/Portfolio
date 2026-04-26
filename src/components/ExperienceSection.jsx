@@ -110,9 +110,23 @@ const ExperienceSection = () => {
                     </div>
                   </div>
 
-                  <p className="text-primary-600 mt-4">
-                    {exp.description}
-                  </p>
+                  <div className="mt-4 space-y-3">
+                    {exp.clientLogo && (
+                      <div className="inline-flex items-center gap-3 rounded-lg border border-primary-100 bg-primary-50 px-3 py-2">
+                        <img
+                          src={exp.clientLogo}
+                          alt={`${exp.clientName} logo`}
+                          className="h-8 w-8 rounded-md object-contain bg-white p-1"
+                        />
+                        <span className="text-sm font-semibold text-primary-700">
+                          {exp.clientName}
+                        </span>
+                      </div>
+                    )}
+                    <p className="text-primary-600">
+                      {exp.description}
+                    </p>
+                  </div>
                 </div>
 
                 {/* Expanded Content */}

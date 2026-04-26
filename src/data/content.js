@@ -1,4 +1,6 @@
 // Centralized portfolio content data
+const assetPath = (path) => `${process.env.PUBLIC_URL}${path}`;
+
 export const portfolioData = {
   personal: {
     name: "K.M. Mohiuddin",
@@ -7,7 +9,9 @@ export const portfolioData = {
     email: "kmmohiuddin.1@gmail.com",
     phone: "+880 1818336022",
     location: "Motijheel, Dhaka, Bangladesh",
-    profileImage: "/new_img/bg_4_2.png",
+    profileImage: assetPath("/new_img/bg_4_2.png"),
+    heroImage: assetPath("/new_img/1000035718.png"),
+    aboutImage: assetPath("/new_img/About me.png"),
     cvLink: "https://drive.google.com/file/d/13UJj6Vq9OuA93qszOguAdJDnODtOVHmn/view?usp=sharing",
     profileLinks: {
       github: "https://github.com/KMMohiuddin",
@@ -22,8 +26,8 @@ export const portfolioData = {
     description: "Leveraging Python, SQL, and BI tools to unlock valuable insights from complex datasets",
     ctaText: "Get in Touch",
     heroImages: [
-      "/new_img/showcase.jpg",
-      "/new_img/bg_2.jpg",
+      assetPath("/new_img/showcase.jpg"),
+      assetPath("/new_img/bg_2.jpg"),
     ],
   },
 
@@ -51,11 +55,13 @@ I bring a balanced combination of technical proficiency, analytical thinking, an
   experience: [
         {
       company: "Miaki Media Ltd",
-      companyLogo: "/new_img/Miaki_logo.png",
+      companyLogo: assetPath("/new_img/Miaki_logo.png"),
       companyUrl: "https://miaki.co",
       role: "Data Analyst ",
       period: "October 2024 - Running",
       duration: "Current",
+      clientLogo: assetPath("/new_img/GP_logo.jpg"),
+      clientName: "Grameenphone Ltd",
       description: "Augmented Resource: Grameenphone Ltd. Enterprise Data Warehouse & Analytics Developer (EDWAD), Data Analytics & IT Team",
       responsibilities: [
         "Design, develop, and optimize end-to-end ETL pipelines integrating data from multiple enterprise sources into a centralized data warehouse, ensuring seamless data flow, enhanced data quality, and scalable reporting capabilities.",
@@ -69,7 +75,7 @@ I bring a balanced combination of technical proficiency, analytical thinking, an
     },
     {
       company: "NAGAD",
-      companyLogo: "/new_img/nagad_logo.jpg",
+      companyLogo: assetPath("/new_img/nagad_logo.jpg"),
       companyUrl: "http://www.nagad.com.bd",
       role: "Executive - Revenue Assurance & Business Assurance",
       period: "September 2023 - October 2024",
@@ -85,7 +91,7 @@ I bring a balanced combination of technical proficiency, analytical thinking, an
     },
     {
       company: "NAGAD",
-      companyLogo: "/new_img/nagad_logo.jpg",
+      companyLogo: assetPath("/new_img/nagad_logo.jpg"),
       companyUrl: "http://www.nagad.com.bd",
       role: "Intern - Revenue Assurance & Business Assurance",
       period: "April 2023 - September 2023",
@@ -104,40 +110,40 @@ I bring a balanced combination of technical proficiency, analytical thinking, an
   extracurricular: [
     {
       organization: "Software Engineering Club (SEC), DIU",
-      logo: "/new_img/sec.jpg",
+      logo: assetPath("/new_img/sec.jpg"),
       role: "Vice President",
       duration: "1 year",
       url: "https://facebook.com/secdiu",
     },
     {
       organization: "GaoTech",
-      logo: "/new_img/gao_tek_inc__logo.jpg",
+      logo: assetPath("/new_img/gao_tek_inc__logo.jpg"),
       role: "Tech Support Intern",
       duration: "3 months",
       url: "https://gaotek.com",
     },
     {
       organization: "Data Science Club, DIU",
-      logo: "/new_img/ds.jpg",
+      logo: assetPath("/new_img/ds.jpg"),
       role: "Executive Member",
       duration: "Active",
       url: "https://web.facebook.com/dsc.diu",
     },
     {
       organization: "Aachol Foundation",
-      logo: "/new_img/aachol.png",
+      logo: assetPath("/new_img/aachol.png"),
       role: "Research Project Contributor",
       duration: "4 months",
     },
     {
       organization: "DIU Voluntary Service Club",
-      logo: "/new_img/vsc.jpg",
+      logo: assetPath("/new_img/vsc.jpg"),
       role: "Member",
       url: "https://web.facebook.com/diuvsc",
     },
     {
       organization: "Rotaract Club of DIU",
-      logo: "/new_img/rc.png",
+      logo: assetPath("/new_img/rc.png"),
       role: "Member",
       url: "https://web.facebook.com/racdiu",
     },
@@ -214,6 +220,7 @@ I bring a balanced combination of technical proficiency, analytical thinking, an
       degree: "Masters of Science in Computer Science & Engineering",
       major: "",
       institution: "North South University",
+      institutionLogo: assetPath("/new_img/NSU MSC logo.png"),
       institutionUrl: "https://ece.northsouth.edu/graduate/graduate-admission/mscse/",
       location: "Dhaka, Bangladesh",
       cgpa: "",
@@ -223,6 +230,7 @@ I bring a balanced combination of technical proficiency, analytical thinking, an
       degree: "Bachelor of Science in Software Engineering",
       major: "Major in Data Science",
       institution: "Daffodil International University",
+      institutionLogo: assetPath("/new_img/DIU BSC logo.jpg"),
       institutionUrl: "https://daffodilvarsity.edu.bd",
       location: "Dhaka, Bangladesh",
       cgpa: "3.91 / 4.00",
@@ -249,67 +257,67 @@ I bring a balanced combination of technical proficiency, analytical thinking, an
   achievements: [
     {
       title: "Skill Development Training - Mobile Game & Application Project",
-      image: "/new_img/game.jpg",
+      image: assetPath("/new_img/game.jpg"),
       category: "Training",
     },
     {
       title: "Tech Support Internship - GAOTek Inc.",
-      image: "/new_img/gaointern.png",
+      image: assetPath("/new_img/gaointern.png"),
       category: "Internship",
     },
     {
       title: "Workshop on Artificial Neural Networks",
-      image: "/new_img/dsann.jpg",
+      image: assetPath("/new_img/dsann.jpg"),
       category: "Workshop",
     },
     {
       title: "Session on ANN in Business & Management Research",
-      image: "/new_img/dsml.jpg",
+      image: assetPath("/new_img/dsml.jpg"),
       category: "Workshop",
     },
     {
       title: "DIU Smart City Idea Contest",
-      image: "/new_img/dsidea.jpg",
+      image: assetPath("/new_img/dsidea.jpg"),
       category: "Competition",
     },
     {
       title: "DIU TAKE OFF Programming Contest",
-      image: "/new_img/takeoff.jpg",
+      image: assetPath("/new_img/takeoff.jpg"),
       category: "Competition",
     },
     {
       title: "National Hackathon",
-      image: "/new_img/hack.jpg",
+      image: assetPath("/new_img/hack.jpg"),
       category: "Competition",
     },
     {
       title: "3rd Data Science Summit 2022 - Organizer & Participant",
-      image: "/new_img/dsorg.jpg",
+      image: assetPath("/new_img/dsorg.jpg"),
       category: "Event",
     },
     {
       title: "DIU Software Engineering Club - Vice President",
-      image: "/new_img/SECvp.jpg",
+      image: assetPath("/new_img/SECvp.jpg"),
       category: "Leadership",
     },
     {
       title: "SEC Event Organization",
-      image: "/new_img/sec12.jpg",
+      image: assetPath("/new_img/sec12.jpg"),
       category: "Leadership",
     },
     {
       title: "Leadership Training",
-      image: "/new_img/lead1.jpg",
+      image: assetPath("/new_img/lead1.jpg"),
       category: "Training",
     },
     {
       title: "Token of Excellence",
-      image: "/new_img/seca.jpg",
+      image: assetPath("/new_img/seca.jpg"),
       category: "Award",
     },
     {
       title: "Youth Social Leadership Training Program",
-      image: "/new_img/ysl.jpg",
+      image: assetPath("/new_img/ysl.jpg"),
       category: "Training",
     },
   ],
@@ -320,7 +328,7 @@ I bring a balanced combination of technical proficiency, analytical thinking, an
       description: "Predictive analytics using LSTM and ARIMA for financial forecasting",
       technologies: ["Python", "TensorFlow", "LSTM", "ARIMA"],
       link: "#",
-      image: "/new_img/p1.png",
+      image: assetPath("/new_img/P1.png"),
     },
   ],
 };

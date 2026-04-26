@@ -53,6 +53,9 @@ const AboutSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">
             {about.heading}
           </h2>
+          <h3 className="text-2xl md:text-3xl font-bold gradient-text mb-3">
+            {personal.name}
+          </h3>
           <p className="text-xl text-primary-600 max-w-2xl mx-auto">
             {about.intro}
           </p>
@@ -70,9 +73,9 @@ const AboutSection = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-accent-400 to-primary-400 rounded-2xl transform rotate-3 opacity-20"></div>
               <img
-                src={personal.profileImage}
+                src={personal.aboutImage}
                 alt={personal.name}
-                className="w-full rounded-2xl shadow-lg"
+                className="w-full max-w-sm md:max-w-md h-[340px] md:h-[430px] mx-auto rounded-2xl shadow-lg object-cover object-[center_28%]"
               />
             </div>
 

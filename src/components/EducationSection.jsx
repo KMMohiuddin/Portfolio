@@ -105,8 +105,15 @@ const EducationSection = () => {
                       href={edu.institutionUrl || '#'}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-primary-600 hover:text-accent-500 font-semibold"
+                      className="inline-flex items-center gap-3 text-primary-600 hover:text-accent-500 font-semibold"
                     >
+                      {edu.institutionLogo && (
+                        <img
+                          src={edu.institutionLogo}
+                          alt={`${edu.institution} logo`}
+                          className="h-10 w-10 rounded-md object-contain border border-primary-100 bg-white p-1"
+                        />
+                      )}
                       {edu.institution}
                     </a>
                     <p className="text-sm text-primary-500">{edu.location}</p>

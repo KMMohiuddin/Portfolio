@@ -112,17 +112,17 @@ const HeroSection = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            <div className="relative w-full max-w-md">
+            <div className="relative w-full max-w-sm md:max-w-md">
               {/* Image Background Circle */}
               <div className="absolute inset-0 bg-gradient-to-br from-accent-400 to-primary-400 rounded-3xl transform rotate-6 opacity-30"></div>
               <img
-                src={personal.profileImage}
+                src={personal.heroImage}
                 alt={personal.name}
-                className="relative w-full rounded-3xl shadow-2xl transform -rotate-3"
+                className="relative w-full h-[380px] md:h-[520px] rounded-3xl shadow-2xl transform -rotate-3 object-cover object-[center_35%]"
               />
               {/* Floating Card */}
               <motion.div
-                className="absolute -bottom-6 -left-6 bg-white p-4 rounded-2xl shadow-lg"
+                className="absolute top-1/2 right-2 md:-right-6 -translate-y-1/2 bg-white px-5 py-4 rounded-2xl shadow-lg text-center"
                 animate={{ y: [0, 10, 0] }}
                 transition={{ duration: 3, repeat: Infinity }}
               >

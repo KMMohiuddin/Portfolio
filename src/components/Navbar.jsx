@@ -47,7 +47,7 @@ const Navbar = () => {
               className="cursor-pointer"
             >
               <div className="text-2xl font-bold gradient-text">
-                KM
+                KM Mohiuddin
               </div>
             </ScrollLink>
           </div>
